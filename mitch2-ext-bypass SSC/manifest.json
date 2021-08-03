@@ -1,0 +1,32 @@
+{
+   "manifest_version": 2,
+
+   "name": "MITCH2 - bypass SSC",
+   "description": "discover post-security-sensitive requests which can bypass SSC on a website",
+   "version": "0.5",
+
+   "browser_action": {
+      "default_icon": "tracker.png",
+      "default_popup": "popup.html"
+   },
+
+   "background": {
+      "scripts": [
+         "sensitivity.js",
+         "json-schema-infer.js",
+         "classifier.min.js",
+         "background.js"
+
+      ]
+   },
+
+   "icons": {
+      "48": "mitch48.png"
+   },
+
+   "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "<all_urls>"
+   ]
+}
