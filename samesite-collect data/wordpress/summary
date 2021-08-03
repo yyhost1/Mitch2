@@ -1,0 +1,5 @@
+1.test subscriber, comment and update profile. Sensitive: 5,samilar:0 第一个登录请求相似度为0.96，手工测试1个为相似。改为similar :1
+2. Test2 contributor, add post and comment and update profile, total request:88,get:59,post;29; sensitive:6, 1个ratio=0.90，手工测试改为similar.
+3.test3 author, add post media, comment and update profile, total request:96,get:47,post:49; sensitive:17(all post) similar:2 手工测试 有两个ratio =0.96 和0.9，标记为similar，共similar：4
+4.test4 editor, add post media category, approve comments,similar:1 ,手工测试有一个ratio=0.79,结果相同，add 1,total similar:2 
+5.user：administor,requests:185, get:105,post:80;sensitive:29(all post),similar:8，有一个ratio=0.78,手工测试相同 加1，共9个。
